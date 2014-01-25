@@ -81,6 +81,8 @@ https://github.com/iSECPartners/Introspy-Analyzer
 Building Introspy-iOS
 ---------------------
 
+https://gist.github.com/tom-go/3342263
+
     curl -O http://test.saurik.com/francis/dpkg-deb-fat
     chmod a+x dpkg-deb-fat
     sudo mkdir -p /usr/local/bin
