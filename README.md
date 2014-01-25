@@ -81,6 +81,11 @@ https://github.com/iSECPartners/Introspy-Analyzer
 Building Introspy-iOS
 ---------------------
 
+    curl -O http://test.saurik.com/francis/dpkg-deb-fat
+    chmod a+x dpkg-deb-fat
+    sudo mkdir -p /usr/local/bin
+    sudo mv dpkg-deb-fat /usr/local/bin/dpkg-deb
+
 Most users should just download and install the pre-compiled Debian package.
 However, if you want to modify the library's functionality you will have to
 build the Debian package yourself.
